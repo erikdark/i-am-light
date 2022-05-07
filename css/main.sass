@@ -1,0 +1,1046 @@
+@font-face
+    font-family: 'Inter-Regular'
+    src: url('../fonts/inter-400.woff2') format("woff2"), url('../fonts/inter-400.woff') format("woff"), url('../fonts/Inter-Regular.ttf') format("truetype"), url('../fonts/inter-400.svg') format("svg")
+@font-face
+    font-family: 'Inter-Light'
+    src: url('../fonts/inter-Light.woff2') format("woff2"), url('../fonts/inter-Light.woff') format("woff"), url('../fonts/Inter-Light.ttf') format("truetype"), url('../fonts/inter-Light.svg') format("svg")
+@font-face
+    font-family: 'Inter-Medium'
+    src: url('../fonts/inter-Medium.woff2') format("woff2"), url('../fonts/inter-Medium.woff') format("woff"), url('../fonts/Inter-Medium.ttf') format("truetype"), url('../fonts/inter-Medium.svg') format("svg")
+@font-face
+    font-family: 'Inter-Bold'
+    src: url('../fonts/inter-900.woff2') format("woff2"), url('../fonts/inter-900.woff') format("woff"), url('../fonts/Inter-Bold.ttf') format("truetype"), url('../fonts/inter-900.svg') format("svg")
+@font-face
+    font-family: 'Merriweather-Regular'
+    src: url('../fonts/Merriweather-Regular.woff2') format("woff2"), url('../fonts/Merriweather-Regular.woff') format("woff"), url('../fonts/Merriweather-Regular.ttf') format("truetype"), url('../fonts/Merriweather-Regular.svg') format("svg")
+
+body
+    background: #f8f8f8
+
+.container
+    max-width: 1160px
+.menu-button
+    padding-right: 0
+    display: flex
+    justify-content: center
+
+.menu-button-item
+    font-family: 'Inter-Regular'
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 17px
+    color: #4F4F4F
+.card-button-item
+    font-family: 'Inter-Regular'
+    padding-left: 90px
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 17px
+    color: #4F4F4F
+.menu-button
+    span
+        padding-left: 20px
+
+.nav-menu
+    padding-top: 61px
+    padding-bottom: 137px
+    align-items: center
+
+.swiper
+    width: 1160px
+    height: 530px
+.swiper-wrapper
+    margin-top: 15px
+
+.sales-hits
+    padding-left: 12px
+    color: #ff4c62
+    font-style: normal
+    font-weight: 400
+    font-size: 12px
+    line-height: 15px
+    font-family: "Inter-Regular"
+
+.slider-title
+    padding-top: 100px
+    padding-bottom: 50px
+    font-family: 'Merriweather-Regular'
+    font-style: normal
+    font-weight: 400
+    font-size: 48px
+    line-height: 100%
+    color: #CEB851
+
+.slider-text
+    font-family: 'Inter-Regular'
+    font-style: normal
+    font-weight: 400
+    font-size: 18px
+    line-height: 145%
+    margin-bottom: 10px
+    color: #4F4F4F
+
+.paginator-slider-items
+    position: relative
+.link-slider-section
+    padding-bottom: 135px
+.link-slider-button
+    background: #CEB851
+    border-radius: 3px
+    padding: 10px 30px
+    font-family: 'Inter-Regular'
+    font-style: normal
+    font-weight: 400
+    font-size: 18px
+    line-height: 22px
+    color: #FFFFFF
+    text-decoration: none
+    border: 2px solid #c3b851
+    transition: .2s linear
+    &:hover
+        color: #CEB851
+        background: #f8f8f8
+        border: 2px solid #c3b851
+        border-radius: 3px
+        &:active
+            background: #B09A2F
+            color: #fff
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction
+    bottom: 25px
+    left: 336px
+    width: auto
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev
+    right: 700px
+    top: -22px
+    left: auto
+
+.swiper-button-next
+    background-image: url(../images/icons/arrow.svg)
+    width: 12px
+    height: 17px
+.swiper-button-next
+    &::after
+        display: none
+
+.swiper-pagination-bullet
+    background-image: url(../images/icons/noactive_pagination.svg)
+    width: 10px
+    height: 10px
+    opacity: 1
+    background-color: #f8f8f8
+
+.swiper-pagination-bullet-active
+    background-image: url(../images/icons/active_pagination.svg) !important
+    width: 10px
+    height: 10px
+.swiper-pagination-bullet
+    background-image: url(../images/icons/noactive_pagination.svg)
+    width: 11px
+    height: 11px
+    opacity: 1
+    border: 1px solid #C2C9D3
+    background: #f8f8f8
+.slider-section
+    padding-bottom: 190px
+.main
+    padding: 50px 0
+
+.hero
+    height: 534px
+    padding: 100px 0
+    position: relative
+    background-color: #C89CB3
+
+    &::before
+        content: ''
+        position: absolute
+        width: 50%
+        height: 100%
+        top: 0
+        left: 0
+        background-image: url('../images/photos/do_is_love.png')
+        background-repeat: no-repeat
+
+    &-content
+        padding-left: 50px
+        color: #fff
+        position: relative
+        z-index: 1
+
+.hero-content
+    h1
+        font-family: 'Merriweather-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 48px
+        line-height: 100%
+        padding-bottom: 50px
+        color: #FFFFFF
+    p
+        font-family: 'Inter-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 18px
+        line-height: 145%
+        color: #FFFFFF
+.offer-section-main
+    padding-top: 190px
+.offer-contain
+    padding: 50px 57px
+    background: #fff
+
+.offer-contain
+    h2
+        padding-top: 32px
+        font-family: 'Merriweather-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 48px
+        line-height: 100%
+        color: #4B4D2C
+        padding-bottom: 50px
+    p
+        font-family: 'Inter-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 18px
+        line-height: 145%
+        padding-right: 50px
+        padding-bottom: 76px
+        color: #4F4F4F
+    a
+        background: #4B4D2C
+        display: inline-block
+        border-radius: 3px
+        padding: 10px 30px
+        font-family: 'Inter-Regular'
+        font-style: normal
+        text-decoration: none
+        font-weight: 400
+        font-size: 18px
+        line-height: 22px
+        border: 2px solid #4b4d2c
+        transition: .2s linear
+        color: #FFFFFF
+        &:hover
+            border: 2px solid #4b4d2c
+            background: #fff
+            color: #4b4d2c
+            padding: 10px 30px
+
+.search-with-social
+    padding-top: 190px
+    padding-bottom: 190px
+    h2
+        font-family: 'Merriweather-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 48px
+        line-height: 100%
+        padding-bottom: 50px
+        color: #4F4F4F
+    .social-ico
+        padding-bottom: 68px
+        img
+            &:first-child
+                padding-right: 38px
+footer
+    background: #DAE1EB
+    padding-top: 102px
+    padding-bottom: 102px
+    span
+        font-family: 'Inter-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 17px
+
+        color: #838383
+    img
+        padding-bottom: 158px
+    ul
+        list-style-type: none
+        li
+            font-family: 'Inter-Regular'
+            font-style: normal
+            font-weight: 400
+            font-size: 14px
+            line-height: 17px
+            text-decoration: none
+            color: #838383
+            padding-top: 20px
+            a
+                font-family: 'Inter-Regular'
+                font-style: normal
+                font-weight: 400
+                font-size: 14px
+                line-height: 17px
+                text-decoration: none
+                color: #838383
+                &:hover
+                    color: #838383
+
+.catalog-product-cards
+    display: grid
+    align-items: center
+    justify-content: stretch
+    column-gap: 40px
+    list-style-type: none
+    row-gap: 70px
+    grid-template-columns: 260px 260px 260px 260px
+
+.card-element-bg
+    &:hover
+        background: #F3F3F3
+.card-title-block
+    padding: 20px
+    h3
+        font-family: 'Inter-Medium'
+        font-style: normal
+        font-weight: 500
+        font-size: 18px
+        line-height: 140%
+        margin-bottom: 0
+
+        color: #000000
+.flex-title-card
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+.card-list
+    list-style-type: none
+    display: flex
+    padding-left: 0
+    margin-bottom: 10px
+    margin-top: 10px
+    li
+        border-right: 2px solid #ba3709
+        padding: 0px 5px
+        font-family: 'Inter-Regular'
+        font-style: normal
+        text-transform: uppercase
+        font-weight: 400
+        font-size: 12px
+        line-height: 140%
+        color: #BA3709
+        &:first-child
+            padding-left: 0
+        &:last-child
+            border-right: none
+.price
+    font-family: 'Inter-Regular'
+    font-style: normal
+    font-weight: 400
+    font-size: 18px
+    line-height: 140%
+
+    color: #3E3E3E
+
+.flex-title-card
+    img
+        opacity: 0.3
+
+.card-element-bg
+    &:hover
+        .flex-title-card
+            img
+                opacity: 1
+.catalog-section-main
+    padding-bottom: 190px
+    h1
+        font-family: 'Merriweather-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 48px
+        line-height: 100%
+        color: #4F4F4F
+    .catalog-filter-list
+        list-style-type: none
+        display: flex
+        justify-content: end
+        padding-left: 0
+        margin-bottom: 0
+        .catalog-filter-item
+            padding: 3px 15px 5px 15px
+            background: #E5E5E5
+            border-radius: 3px
+            margin-right: 20px
+            &:last-child
+                margin-right: 0
+            .catalog-filter-link
+                text-decoration: none
+                font-family: 'Inter-Regular'
+                font-style: normal
+                font-weight: 400
+                font-size: 12px
+                line-height: 15px
+                color: #9A9A9A
+.catalog-product-cards
+    padding-top: 107px
+
+.how-use-main
+    padding-bottom: 190px
+    h1
+        font-family: 'Merriweather-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 48px
+        line-height: 100%
+        color: #D29AB3
+    p
+        font-family: 'Inter-Regular'
+        padding-top: 50px
+        font-style: normal
+        font-weight: 400
+        font-size: 18px
+        line-height: 145%
+
+        color: #4F4F4F
+.how-buy-main
+    padding-bottom: 172px
+    h1
+        font-family: 'Merriweather-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 48px
+        line-height: 100%
+        padding-bottom: 50px
+        color: #D8784E
+    p
+        font-family: 'Inter-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 18px
+        line-height: 145%
+        color: #4F4F4F
+        padding-bottom: 50px
+    .how-buy-button
+        background: #D8784E
+        border-radius: 3px
+        padding: 10px 30px
+        font-family: 'Inter-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 18px
+        line-height: 22px
+        text-decoration: none
+        transition: .2s linear
+        border: 2px solid #d8784e
+        color: #FFFFFF
+        &:hover
+            border: 2px solid #d8784e
+            background: #F8F8F8
+            color: #d8784e
+.po-pochte
+    padding-top: 150px
+.how-buy-bg
+    background: url("../images/photos/how-buy-bg.png") center center
+    background-size: cover
+    height: 534px
+.delivery-and-pay
+    padding-top: 190px
+    padding-bottom: 190px
+    h2
+        font-family: 'Merriweather-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 48px
+        line-height: 100%
+        color: #4F4F4F
+    h3
+        font-family: 'Inter-Medium'
+        font-style: normal
+        font-weight: 500
+        font-size: 24px
+        line-height: 145%
+        padding-top: 50px
+        padding-bottom: 20px
+        color: #4F4F4F
+    p
+        font-family: 'Inter-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 18px
+        line-height: 145%
+        color: #4F4F4F
+    span
+        font-family: 'Inter-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 145%
+        color: #4F4F4F
+    img
+        padding-bottom: 40px
+.sdek
+    padding: 5px 15px
+    background: #1AB248
+    border-radius: 3px
+    color: #fff
+    text-decoration: none
+    font-family: 'Inter-Regular'
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 145%
+    &:hover
+        color: #fff
+.sdek-text
+    padding-bottom: 14px
+
+.pochta
+    padding: 5px 15px
+    background: #0055A5
+    border-radius: 3px
+    color: #fff
+    text-decoration: none
+    font-family: 'Inter-Regular'
+    font-style: normal
+    font-weight: 400
+    font-size: 14px
+    line-height: 145%
+    &:hover
+        color: #fff
+.pochta-text
+    padding-bottom: 14px
+
+.main-contact-section
+    padding-bottom: 190px
+.main-contact-section
+    h1
+        font-family: 'Merriweather-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 48px
+        line-height: 100%
+        padding-bottom: 103px
+        color: #D8784E
+    b
+        font-family: 'Inter-Medium'
+        font-style: normal
+        font-weight: 500
+        font-size: 18px
+        line-height: 22px
+        color: #4F4F4F
+    span
+        font-family: 'Inter-Light'
+        font-style: normal
+        font-weight: 300
+        font-size: 14px
+        line-height: 17px
+        color: #4F4F4F
+.tel-contact
+    padding-top: 20px
+.email-contact
+    padding-top: 20px
+.tp
+    padding-top: 20px
+
+.card-button-item
+    a
+        font-family: 'Inter-Regular'
+        font-style: normal
+        text-decoration: none
+        font-weight: 400
+        font-size: 14px
+        line-height: 17px
+
+        color: #4F4F4F
+
+.card-section-block
+    padding-bottom: 190px
+    h1
+        padding-bottom: 100px
+        font-family: 'Merriweather-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 48px
+        line-height: 100%
+
+        color: #4F4F4F
+.card-item-title
+    display: flex
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+    -webkit-appearance: none
+    margin: 0
+
+.button-card-wrapper
+    display: flex
+    height: 25px
+    justify-content: center
+
+    & .subtract
+        border-top-left-radius: 3px
+        border-bottom-left-radius: 3px
+
+    & .add
+        border-top-right-radius: 3px
+        border-bottom-right-radius: 3px
+
+    & .subtract,
+
+    & .add
+        border: none
+        transition: .2s linear
+        font-family: 'Inter-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 15px
+        line-height: 15px
+        text-align: center
+        color: #4F4F4F
+
+.js-number
+    width: 20%
+    text-align: center
+    background-color: #EFEFEF
+    border: none
+    font-family: 'Inter-Regular'
+    font-style: normal
+    font-weight: 400
+    font-size: 15px
+    line-height: 15px
+    text-align: center
+
+    color: #4F4F4F
+
+.button-card-wrapper .subtract:hover,
+.button-card-wrapper .add:hover
+    cursor: pointer
+    transition: .2s linear
+    background-color: #d3d3d3
+.card-element-nav
+    display: flex
+    align-items: center
+    justify-content: space-between
+.button-card-price
+    font-family: 'Inter-Regular'
+    font-style: normal
+    font-weight: 400
+    font-size: 18px
+    line-height: 140%
+    color: #3E3E3E
+.card-element-title
+    padding-top: 13px
+    padding-left: 60px
+    h3
+        font-family: 'Inter-Regular'
+        font-style: normal
+        font-weight: 500
+        font-size: 18px
+        line-height: 140%
+
+        color: #4F4F4F
+.back-to
+    padding-bottom: 190px
+.back-to-catalog
+    display: flex
+    align-items: center
+    p
+        margin-bottom: 0
+        padding-bottom: 3px
+        a
+            font-family: 'Inter-Medium'
+            font-style: normal
+            font-weight: 500
+            font-size: 14px
+            line-height: 140%
+            padding-left: 16px
+            color: #3E3E3E
+            text-decoration: none
+.flex-back
+    display: flex
+    justify-content: space-between
+    align-items: center
+.full-order-card
+    display: flex
+    align-items: center
+    p
+        padding-right: 55px
+        margin-bottom: 0
+        font-family: 'Inter-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 140%
+
+        color: #3E3E3E
+    b
+        font-family: 'Inter-Bold'
+        font-style: normal
+        font-weight: 700
+        font-size: 18px
+        line-height: 140%
+
+        color: #3E3E3E
+.dropdown-content
+    display: none
+    position: absolute
+    background-color: #DAE1EB
+    min-width: 140px
+    height: 150px
+    padding: 5px
+    z-index: 1
+
+    .dropdown:hover &
+        display: block
+.menu-nav-dropdown
+    list-style-type: none
+    margin-left: 0
+    padding-left: 0
+    li
+        padding-top: 10px
+    a
+        font-family: 'Inter-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 17px
+        text-decoration: none
+        color: #4f4f4f
+        &:hover
+            color: #CEB851
+.product-card-main-section
+    padding-bottom: 190px
+    h1
+        font-family: 'Merriweather-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 48px
+        line-height: 100%
+        padding-top: 44px
+        padding-bottom: 20px
+        color: #CEB851
+
+// color-text-for-card-elements-start
+.pear-dessert
+    li
+        color: #CEB851
+        border-color: #ceb851
+.pear-dessert-slider
+    h1
+        color: #ceb851
+    a
+        background: #ceb851
+        border: 2px solid #ceb851
+        &:hover
+            border: 2px solid #ceb851
+            color: #ceb851
+
+.forest
+    li
+        color: #326A43
+        border-color: #326A43
+.forest-slider
+    h1
+        color: #326A43
+    a
+        background: #326A43
+        border: 2px solid #326a43
+        &:hover
+            border: 2px solid #326A43
+            color: #326A43
+
+.sunshine-slider
+    h1
+        color: #D47700
+    a
+        background: #D47700
+        border: 2px solid #D47700
+        &:hover
+            border: 2px solid #D47700
+            color: #D47700
+.sea-wave-slider
+    h1
+        color: #006869
+    a
+        background: #006869
+        border: 2px solid #006869
+        &:hover
+            border: 2px solid #006869
+            color: #006869
+
+.caramel-slider
+    h1
+        color: #BA3709
+    a
+        background: #BA3709
+        border: 2px solid #BA3709
+        &:hover
+            border: 2px solid #BA3709
+            color: #BA3709
+
+.forest-color
+    li
+        color: #326A43
+        border-right: 2px solid #326A43
+.pear-color
+    li
+        color: #ceb851
+        border-right: 2px solid #ceb851
+.sea-color
+    li
+        color: #006869
+        border-right: 2px solid #006869
+
+.self-color
+    li
+        color: #B85B3A
+        border-right: 2px solid #B85B3A
+
+.sunshine-color
+    li
+        color: #D47700
+        border-right: 2px solid #D47700
+.flex-title-card
+    a
+        color: #4f4f4f !important
+        text-decoration: none
+.modal-card-open-button
+    text-align: right
+// color-text-for-card-elements-end 
+.tite-card-product
+    padding-top: 50px
+    padding-bottom: 25px
+    font-family: 'Inter-Regular'
+    font-style: normal
+    font-weight: 400
+    font-size: 18px
+    line-height: 145%
+    color: #4F4F4F
+    p
+        margin-bottom: 5px
+.aposite-text
+    padding-bottom: 45px
+    span
+        font-family: 'Inter-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 140%
+
+        color: #4F4F4F
+.buy-and-price-product-card
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.product-wrapper
+    justify-content: start
+.price-product-card
+    font-family: 'Inter-Regular'
+    font-style: normal
+    font-weight: 400
+    font-size: 18px
+    line-height: 140%
+    color: #4F4F4F
+.back-to-card-link
+    img
+        padding-left: 16px
+    a
+        font-family: 'Inter-Medium'
+        font-style: normal
+        font-weight: 500
+        font-size: 14px
+        line-height: 140%
+        text-decoration: none
+        color: #4F4F4F
+.bgc-block
+    margin-top: 15px
+    background: #C89CB3
+    padding: 15px
+    text-align: center
+.section-mobile-hero
+    display: none
+    h1
+        font-family: 'Merriweather-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 48px
+        line-height: 100%
+        color: #FFFFFF
+        padding-bottom: 20px
+    p
+        font-family: 'Inter-Regular'
+        font-style: normal
+        font-weight: 400
+        font-size: 18px
+        line-height: 145%
+        color: #FFFFFF
+.mobile-full-order
+    display: none
+.mobile-off
+    display: flex
+.card-element-list-product
+    list-style-type: none
+@media (min-width: 320px) and (max-width: 768px)
+    .modal-card-open-button
+        text-align: center
+    .bgc-block
+        padding: 40px 60px
+    .section-mobile-hero h1
+        font-size: 32px
+    .mobile-full-order
+        justify-content: center
+        padding-bottom: 40px
+        display: flex
+    .mobile-off
+        display: none
+    .slider-section
+        padding-bottom: 60px
+    .dropdown-content
+        z-index: 9999
+    .card-card-list
+        justify-content: center
+    .swiper
+        height: 940px
+        width: auto
+    .swiper-pagination
+        display: none
+    .mobile-slider-images
+        img
+            height: auto
+            width: 100%
+            padding-bottom: 60px
+            padding-top: 60px
+    .slider-title
+        padding-top: 30px
+    .link-slider-section
+        padding-bottom: 30px
+    .swiper-slide
+        text-align: center
+    .offer-contain
+        padding: 15px
+        text-align: center
+        img
+            height: auto
+            width: 100%
+    .section-mobile-hero
+        display: block
+    .hero
+        display: none
+    .nav-menu
+        text-align: center
+        padding-bottom: 100px
+    .logotype
+        padding-bottom: 20px
+    .offer-contain
+        p
+            padding-right: 0
+        img
+            padding-top: 30px
+    .search-with-social
+        text-align: center
+        .social-ico
+            img:first-child
+                padding-right: 0
+    .images-mobile
+        padding-top: 30px
+    .search-with-social
+        padding-bottom: 100px
+        padding-top: 100px
+    .offer-section-main
+        padding-top: 100px
+    .footer
+        text-align: center
+        ul
+            padding: 0
+    .catalog-filter-list
+        flex-direction: column
+        text-align: center
+    .catalog-section-main
+        .catalog-filter-list
+            .catalog-filter-item
+                margin: 0
+                margin-top: 10px
+    .catalog-section-main
+        padding-bottom: 100px
+        text-align: center
+    .catalog-product-cards
+        padding-top: 100px
+        display: flex
+        flex-direction: column
+    .card-element-bg
+        margin-top: 30px
+    .how-buy-main
+        text-align: center
+        padding-bottom: 100px
+    .how-image-mobile
+        img
+            width: 100%
+            height: auto
+    .how-buy-bg
+        display: none
+    .delivery-and-pay
+        padding-bottom: 100px
+        padding-top: 100px
+        text-align: center
+        img
+            padding-top: 30px
+    .how-use-main
+        text-align: center
+        padding-bottom: 100px
+        h1
+            font-size: 38px
+
+        img
+            width: 100%
+            height: auto
+    .main-contact-section
+        text-align: center
+        padding-bottom: 100px
+        img
+            height: auto
+            width: 100%
+            padding-top: 30px
+    .card-section-block
+        text-align: center
+    .card-item-title
+        display: block
+        text-align: center
+    .card-element-title
+        padding-left: 0
+    .card-title-block
+        text-align: left
+    .flex-back
+        flex-direction: column
+    .card-section-block
+        padding-bottom: 100px
+    .back-to
+        padding-bottom: 100px
+    .product-card-main-section
+        padding-bottom: 100px
+    .images-product-fix
+        img
+            height: auto
+            width: 100%
+            padding-bottom: 30px
+    .buy-and-price-product-card
+        flex-direction: column
+    .product-wrapper
+        justify-content: center
+    .price-product-card
+        padding-bottom: 30px
+        padding-top: 30px
+    .back-to-card-link
+        padding-top: 30px
+    .card-element-nav
+        justify-content: center
+    .button-card-price
+        padding-right: 30px
+
+@media (min-width: 1920px)
+    .hero
+        &::before
+            left: 10%
+@media (min-width: 2460px)
+    .hero
+        &::before
+            left: 20%

@@ -1,0 +1,41 @@
+[v-cloak] > * {
+  display: none;
+}
+
+[v-cloak]::before {
+  content: "Load .....";
+}
+
+#cart .appImg {
+  max-width: 100px;
+  height: auto;
+}
+
+.modal-content {
+  background-color: #f8f8f8;
+}
+
+.mylink,
+.modal-footer .mybtn {
+  background: #D8784E;
+  border-radius: 3px;
+  padding: 10px 30px;
+  font-family: 'Inter-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  border: 2px solid #d8784e;
+  color: #FFFFFF;
+}
+
+.mylink:hover,
+.modal-footer .mybtn:hover {
+  border: 2px solid #d8784e;
+  background: #F8F8F8;
+  color: #d8784e;
+}
+/*# sourceMappingURL=app.css.map */
